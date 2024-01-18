@@ -1,4 +1,7 @@
-﻿/**
+﻿
+using TDD.App;
+
+/**
  Fizz Buzz:
     Print numbers 1 to 100
         - If divisible by 3, replace with “Fizz”
@@ -17,7 +20,8 @@
         16
         ...
  */
+FizzBuzzer fizzBuzzer = new FizzBuzzer();
 for (int i = 1; i <= 100; i++)
 {
-    Console.WriteLine(i);
+    Console.WriteLine(fizzBuzzer.FizzBuzz(i));
 }
