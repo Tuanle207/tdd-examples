@@ -1,0 +1,17 @@
+#######################################################################
+# ROSEN specific folders
+DropLocation/**
+!Environment/**
+Environment/TestResults/**
+!ThirdParty/**
+ThirdParty/**/__pycache__/**
+ThirdParty/ATLASync/ATLASync/bin
+Rosen/.scannerwork/**
+Rosen/metrics/**
+Rosen/.sonar/**
+/.vs
+/ThirdParty/ATLASync/ATLASync/obj
+/ThirdParty/ATLASync/ATLASyncB/bin/Debug
+/ThirdParty/ATLASync/ATLASyncB/obj
+/ThirdParty/ATLASync/ATLASync/.vs/ATLASync
+/ThirdParty/ATLASync/ATLASyncB/.vs/ATLASyncB/v16
